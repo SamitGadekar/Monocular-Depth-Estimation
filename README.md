@@ -1,13 +1,13 @@
 # Overview
 
-Monocular-Depth-Estimation leverages state-of-the-art depth estimation models to convert 2D images into detailed depth maps, which are then transformed into 3D point clouds. Using basic camera intrinsics assumptions, it enables visualization and interactive exploration of these point clouds via Open3D and matplotlib. Additionally, the project features a user-friendly GUI for real-time tuning of camera parameters like field of view (FOV) and depth scaling, allowing fine control over the generated 3D representations.
+**Monocular-Depth-Estimation** leverages state-of-the-art depth estimation models to convert 2D images into detailed depth maps, which are then transformed into 3D point clouds. Using basic camera intrinsics assumptions, it enables visualization and interactive exploration of these point clouds via Open3D and matplotlib. Additionally, the project features a user-friendly GUI for real-time tuning of camera parameters like field of view (FOV) and depth scaling, allowing fine control over the generated 3D representations.
 
 Ideal for researchers and developers working in computer vision, robotics, or 3D reconstruction, this tool provides a foundation for advanced depth sensing and visualization workflows!
 
 
 # Inspiration
 
-This project is inspired by the live course [2D Image to 3D Point Cloud with DepthAnything: Live Course (Monocular Depth Estimation)](https://www.youtube.com/watch?v=2Jl-ZeQJzwI) by Florent Poux, which utilizes the [Depth-Anything](https://github.com/LiheYoung/Depth-Anything) model. The video walkthrough demonstrates how to convert single 2D images into depth maps and reconstruct 3D point clouds using state-of-the-art depth estimation techniques. Building on this foundation, I have implemented additional features such as real-time GUI controls for camera intrinsics and extended compatibility for Mac systems to enhance usability and flexibility.
+This project is inspired by the live course [2D Image to 3D Point Cloud with DepthAnything: Live Course (Monocular Depth Estimation)](https://www.youtube.com/watch?v=2Jl-ZeQJzwI) by Florent Poux, which utilizes the [Depth-Anything](https://github.com/LiheYoung/Depth-Anything) model. The video walkthrough demonstrates how to convert single 2D images into depth maps and reconstruct 3D point clouds using modern depth estimation techniques from Depth-Anything. Building on this foundation, I have implemented additional features such as real-time GUI controls for camera intrinsics and extended compatibility for Mac systems to enhance usability and flexibility.
 
 
 # Features
@@ -39,6 +39,27 @@ Make sure to install and have the following packages available:
 Optional, for advanced visualization application:
 - `tkinter`, `ttk` (from `tkinter`)
 
+
+# Setup and Execution
+
+### Local
+1. **Clone the Repository** or **Open in Compatible IDE**
+```bash
+   git clone https://github.com/SamitGadekar/Monocular-Depth-Estimation
+   cd <repository_folder>
+```
+or open via PyCharm's GitHub integration. 
+
+2. **Install dependencies** as described in the **Requirements** section
+
+3. **Install Jupyter** (if not using IDE) 
+```bash
+pip install jupyter
+```
+4. **Open and Run!**
+
+### Remote
+Alternatively, you can run it in a Google CoLab environment on your browser! (may be slower and need to troubleshoot)
 
 # Possible Future Developments
 
