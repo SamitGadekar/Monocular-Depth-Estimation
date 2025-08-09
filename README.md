@@ -43,6 +43,7 @@ Optional, for advanced visualization application:
 # Possible Future Additions
 
 - Scale the output to metric units by utilizing the MetricDepth model on `HuggingFace` (loading checkpoints into `PyTorch` for custom inference).
+- Object/environment recognition within point clouds.
 - ROS implementation for real-time depth estimations and visualizations based on live-video feeds.
 - LiDAR comparison convergences to estimate accurate camera intrinsics and Depth-Anything parameters.
 
