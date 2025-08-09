@@ -1,22 +1,3 @@
-# Requirements
-
-Make sure to install and have the following packages available:
-
-- `numpy` 
-- `torch`
-- `transformers` (for `AutoImageProcessor` and `AutoModelForDepthEstimation`)
-- `opencv-python` (`cv2`)
-- `matplotlib` (use `'TkAgg'` backend to avoid PyCharm color grading effects)
-- `open3d`
-- `os` (standard library)
-- `random` (standard library)
-- `pathlib` (standard library)
-
-Optional, for advanced visualization application:
-- `tkinter`
-- `ttk` (from `tkinter`)
-
-
 # Features
 
 - Converts single images into depth maps using the DepthAnything implementation via HuggingFace.
